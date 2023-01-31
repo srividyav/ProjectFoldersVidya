@@ -1,0 +1,131 @@
+ * {
+    margin: 0;
+    padding: 0;
+   }
+header{
+        background-color:blanchedalmond;
+        text-align:center;
+        padding:1em;
+}
+nav{    
+    background-color:blanchedalmond;
+}
+main{
+        text-align:center;
+        padding: 4em;
+}
+body {
+    background-color:antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+.container{
+    background-color:blanchedalmond;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+}
+.container li{
+    list-style-type: none;
+}
+.container a:hover{
+    background-color: lightsteelblue;
+}
+.container a{
+    display:inline-block;
+    padding: 85px;
+    margin:0 55px;
+    text-decoration: solid;
+    text-decoration: none;
+    color:brown;
+}
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background-color: blanchedalmond;
+}
+
+footer div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+section {
+    display: flex;
+    padding-top: 10px;
+}
+
+article {
+    flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#promo {
+    position: relative;
+    text-align: center;
+    height: 25vh;
+}
+
+#promo h1 {
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    color:black;
+}
+
+#promo h3 {
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+    color:black;
+}
+
+.info {
+    background-color:lightsteelblue  ;
+    border-radius: 25px;
+}
+
+#promo img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.info img {
+    padding: 10px 0 10px 0;
+}
+
+.info a {
+    margin: 10px 0 10px 0;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    background-color:blanchedalmond;
+    border: 1px solid blanchedalmond;
+    border-radius: 25px;
+}
+
+.info ul {
+    margin: 10px 0 10px 0;
+    list-style: none;
+}
